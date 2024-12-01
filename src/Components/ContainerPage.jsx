@@ -74,7 +74,7 @@ function ContainerPage() {
     if(dataB?.length==0) return
 
     let newD = [...userData]
-   console.log(dataB)
+  //  console.log(dataB)
    dataB.map((e)=>{
     setContB((pre)=>pre.filter((it)=>it !== e))
     if(!(newD.includes(e))){
